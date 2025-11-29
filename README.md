@@ -51,8 +51,8 @@ Task: Instead of three Security Group create Five Security Groups
 
 ```bash
 vi LearnWithMithran.pem
-chmod 400 LearnWithMithran.pem
-ssh -i LearnWithMithran.pem ec2-user@10.0.4.162
+chmod 400 Navash.pem
+ssh -i Navash.pem ec2-user@10.0.4.162
 ```
 
 ## 11. Setup Database
@@ -110,10 +110,3 @@ touch index.html script.js styles.css
 
 ---
 
-### Tasks to be completed
-
-- [ ] Instead of three Security Group create Five Security Group
-- [ ] Create a Internal Load Balancer for AppServer
-- [ ] Create a AutoScaling for Webserver & Appserver
-- [ ] Using Cloudcraft/draw.io Draw a Three tier Diagram
-- [ ] Read the 4 Part DR strategies document [Click Me](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/)
